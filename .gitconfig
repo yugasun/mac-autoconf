@@ -1,0 +1,18 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[user]
+	email = yuga_sun@163.com
+	name = yugasun
+[credential]
+	helper = osxkeychain
+[color]
+	ui = true
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[http]
+	postBuffer = 524288000
+[pack]
+	windowMemory = 20m
+	packSizeLimit = 20m

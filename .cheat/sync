@@ -1,0 +1,2 @@
+# include some files
+aws s3 sync s3://argoai-snowball/argo-data/2017-10-26-Z189/00/315969092856753478 315969092856753478 --exclude '*' --include 'velodyne*' --include 'others*'
