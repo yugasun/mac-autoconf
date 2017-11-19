@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/Jacksun/.oh-my-zsh
+export ZSH=/Users/yugasun/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -84,7 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/usr/local/sbin:$PATH"
 
-export NVM_DIR="/Users/Jacksun/.nvm"
+export NVM_DIR="/Users/yugasun/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # config for pyenv
@@ -104,4 +104,4 @@ alias fk='fuck'
 alias cht='cheat'
 
 # added by travis gem
-[ -f /Users/Jacksun/.travis/travis.sh ] && source /Users/Jacksun/.travis/travis.sh
+[ -f /Users/yugasun/.travis/travis.sh ] && source /Users/yugasun/.travis/travis.sh
