@@ -3,7 +3,7 @@
 	smudge = git-lfs smudge %f
 	required = true
 [user]
-	email = yuga_sun@163.com
+	email = yuga.sun.bj@gmail.com
 	name = yugasun
 [credential]
 	helper = osxkeychain
